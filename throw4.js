@@ -1,7 +1,8 @@
 try {
     // Código con error de sintaxis
     console.log("Inicio del bloque try");
-    const resultado = 10 / b ; // Variable no definida
+    const resultado = 10 / b; //
+    console.log(resultado) //Variable no definida
     console.log("Fin del bloque try");
 } 
 catch (e) {
